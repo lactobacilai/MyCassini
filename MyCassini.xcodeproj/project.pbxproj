@@ -54,14 +54,22 @@
 		3AAD99B81E219B21000C33D4 /* MyCassini */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD99B91E219B21000C33D4 /* AppDelegate.swift */,
 				3AAD99BB1E219B21000C33D4 /* ViewController.swift */,
 				3AAD99BD1E219B21000C33D4 /* Main.storyboard */,
+				3AAD99CB1E219B5B000C33D4 /* New Group */,
+			);
+			path = MyCassini;
+			sourceTree = "<group>";
+		};
+		3AAD99CB1E219B5B000C33D4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3AAD99B91E219B21000C33D4 /* AppDelegate.swift */,
 				3AAD99C01E219B21000C33D4 /* Assets.xcassets */,
 				3AAD99C21E219B21000C33D4 /* LaunchScreen.storyboard */,
 				3AAD99C51E219B21000C33D4 /* Info.plist */,
 			);
-			path = MyCassini;
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGCCG9C3JG;
 				INFOPLIST_FILE = MyCassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lactobacilai.MyCassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGCCG9C3JG;
 				INFOPLIST_FILE = MyCassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lactobacilai.MyCassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
