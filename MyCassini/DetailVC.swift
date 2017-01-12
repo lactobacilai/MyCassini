@@ -78,6 +78,10 @@ class DetailVC: UIViewController, UIScrollViewDelegate {
             DispatchQueue(label: "com.lactobacilai.loadImage",
                           qos: DispatchQoS.userInitiated
             ).async {
+                
+                
+                //TODO: needed to check current image to fetch
+                
                 if let imageData = try? Data(contentsOf: url, options: Data.ReadingOptions.alwaysMapped){
                     
                     DispatchQueue.main.async {

@@ -23,23 +23,46 @@ class MasterVC: UIViewController {
     
 
     
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if(segue.identifier == "segue_showImage"){
-            print("prepare  segue_showImage ")
+        if let fromUIButton = sender as? UIButton{
             
-            if let navcon = segue.destination as? UINavigationController{
-                if let vc = navcon.visibleViewController as? DetailVC{
-                    print("button title: \((sender as? UIButton)?.currentTitle)")
-                    vc.title = (sender as? UIButton)?.currentTitle
+            if(segue.identifier == "segue_showImage"){
+                print("prepare  segue_showImage ")
+                
+                if let navcon = segue.destination as? UINavigationController{
+                    if let vc = navcon.visibleViewController as? DetailVC{
+                        print("button title: \(fromUIButton.currentTitle)")
+                        vc.title = fromUIButton.currentTitle
+                    }
+                }else{
+                    if let vc = segue.destination as? DetailVC{
+                        print("button title: \(fromUIButton.currentTitle)")
+                        vc.title = fromUIButton.currentTitle
+                    }
+
                 }
             }
+            
             
         }
     }
    
+    
+    
+    
+    //MARK: -Action Events
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segue_showImage", sender: sender)
+    }
+    
+    
+    
+    
 
 }

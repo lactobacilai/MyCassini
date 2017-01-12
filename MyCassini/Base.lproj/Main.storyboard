@@ -30,7 +30,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                         <state key="normal" title="1-Concurrent"/>
                                         <connections>
-                                            <segue destination="gdW-Xe-86Z" kind="showDetail" identifier="segue_showImage" id="HGI-Qz-zut"/>
+                                            <action selector="buttonClicked:" destination="qJA-WL-eep" eventType="touchUpInside" id="Aac-F7-Tgn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLq-RM-ESi">
@@ -38,7 +38,7 @@
                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="2-Concurrent"/>
                                         <connections>
-                                            <segue destination="gdW-Xe-86Z" kind="showDetail" identifier="segue_showImage" id="7Cu-BM-D5u"/>
+                                            <action selector="buttonClicked:" destination="qJA-WL-eep" eventType="touchUpInside" id="XTk-qT-8pL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrJ-v9-eS8">
@@ -46,7 +46,7 @@
                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="3-Concurrent"/>
                                         <connections>
-                                            <segue destination="gdW-Xe-86Z" kind="showDetail" identifier="segue_showImage" id="8u4-jv-RKa"/>
+                                            <action selector="buttonClicked:" destination="qJA-WL-eep" eventType="touchUpInside" id="q70-UL-kee"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -59,6 +59,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jcx-Iu-x3g"/>
+                    <connections>
+                        <segue destination="gdW-Xe-86Z" kind="showDetail" identifier="segue_showImage" id="u38-Bb-qUn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WKm-4J-ZVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,6 +190,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HGI-Qz-zut"/>
+        <segue reference="u38-Bb-qUn"/>
     </inferredMetricsTieBreakers>
 </document>
