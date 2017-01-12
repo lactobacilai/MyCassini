@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A893A451E2346EF00C75F88 /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A893A441E2346EF00C75F88 /* ImageVC.swift */; };
+		3A893A471E23472E00C75F88 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A893A461E23472E00C75F88 /* MasterVC.swift */; };
+		3A893A491E23473A00C75F88 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A893A481E23473A00C75F88 /* DetailVC.swift */; };
 		3AAD99BA1E219B21000C33D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD99B91E219B21000C33D4 /* AppDelegate.swift */; };
-		3AAD99BC1E219B21000C33D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD99BB1E219B21000C33D4 /* ViewController.swift */; };
 		3AAD99BF1E219B21000C33D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD99BD1E219B21000C33D4 /* Main.storyboard */; };
 		3AAD99C11E219B21000C33D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD99C01E219B21000C33D4 /* Assets.xcassets */; };
 		3AAD99C41E219B21000C33D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD99C21E219B21000C33D4 /* LaunchScreen.storyboard */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A893A441E2346EF00C75F88 /* ImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
+		3A893A461E23472E00C75F88 /* MasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
+		3A893A481E23473A00C75F88 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		3AAD99B61E219B21000C33D4 /* MyCassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAD99B91E219B21000C33D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AAD99BB1E219B21000C33D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AAD99BE1E219B21000C33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AAD99C01E219B21000C33D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAD99C31E219B21000C33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +60,9 @@
 		3AAD99B81E219B21000C33D4 /* MyCassini */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD99BB1E219B21000C33D4 /* ViewController.swift */,
+				3A893A461E23472E00C75F88 /* MasterVC.swift */,
+				3A893A481E23473A00C75F88 /* DetailVC.swift */,
+				3A893A441E2346EF00C75F88 /* ImageVC.swift */,
 				3AAD99CC1E219C8B000C33D4 /* DemoURL.swift */,
 				3AAD99BD1E219B21000C33D4 /* Main.storyboard */,
 				3AAD99CB1E219B5B000C33D4 /* New Group */,
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAD99BC1E219B21000C33D4 /* ViewController.swift in Sources */,
+				3A893A491E23473A00C75F88 /* DetailVC.swift in Sources */,
 				3AAD99BA1E219B21000C33D4 /* AppDelegate.swift in Sources */,
 				3AAD99CD1E219C8B000C33D4 /* DemoURL.swift in Sources */,
+				3A893A471E23472E00C75F88 /* MasterVC.swift in Sources */,
+				3A893A451E2346EF00C75F88 /* ImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
